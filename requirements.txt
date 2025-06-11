@@ -1,6 +1,7 @@
 notion-client
 python-dotenv         
 pydantic             
+pydantic-settings
 requests 
 streamlit
 streamlit-option-menu
