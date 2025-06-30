@@ -39,10 +39,6 @@ def show_content_generator():
             st.error("❌ Topic is required to generate content.")
             return
         
-        #Show generation progress
-        progress_placeholder = st.empty()
-        status_placeholder = st.empty()
-        
         try:
             with st.spinner("🤖 Generating content..."):
                 # Create enhanced prompt if custom instructions provided
