@@ -114,13 +114,13 @@ def render_content_form():
             
             content_type = st.selectbox(
                     "Content Type*",
-                    options=["Blog Post", "Social Media Post", "Email Newsletter", "Video Script"],
+                    options=["Blog Post", "Social Media Post", "Email Newsletter", "Video Script", "Article", "Marketing", "Email", "Newsletter", "Product Description", "Case Study", "Tutorial", "Press Release"],
                     help="Type of content to generate."
             )
             
             length = st.selectbox(
                 "Content Length",
-                    ["Short", "Medium", "Long"],
+                    ["Short", "Medium", "Long", "Extra Long"],
                     index=1,
                     help="Short: 200-400 words, Medium: 500-800 words, Long: 1000+ words"
             )
